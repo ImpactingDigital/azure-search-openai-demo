@@ -17,7 +17,7 @@ param searchServiceName string = ''
 param searchServiceResourceGroupName string = ''
 param searchServiceResourceGroupLocation string = location
 
-param searchServiceSkuName string = 'standard'
+param searchServiceSkuName string = 'free'
 param searchIndexName string = 'gptkbindex'
 
 param storageAccountName string = ''
@@ -179,7 +179,7 @@ module searchService 'core/search/search-services.bicep' = {
     sku: {
       name: searchServiceSkuName
     }
-    semanticSearch: 'free'
+    
   }
 }
 

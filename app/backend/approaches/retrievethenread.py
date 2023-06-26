@@ -54,10 +54,10 @@ Answer:
         if overrides.get("semantic_ranker"):
             r = self.search_client.search(q, 
                                           filter=filter,
-                                          query_type=QueryType.SEMANTIC, 
+                                          #query_type=QueryType.SEMANTIC, 
                                           query_language="en-us", 
-                                          query_speller="lexicon", 
-                                          semantic_configuration_name="default", 
+                                          #query_speller="lexicon", 
+                                          #semantic_configuration_name="default", 
                                           top=top, 
                                           query_caption="extractive|highlight-false" if use_semantic_captions else None)
         else:
