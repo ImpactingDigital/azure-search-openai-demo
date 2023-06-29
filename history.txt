@@ -1,0 +1,115 @@
+    1  sudo apt update && sudo apt upgrade
+    2  ls
+    3  pwd
+    4  mkdir code
+    5  ls
+    6  cd code
+    7  code .
+    8  apt search firefox
+    9  sudo apt install firefox
+   10  snap list
+   11  sudo nano /etc/wsl.conf
+   12  snap list
+   13  firefox
+   14  snap install firefox
+   15  snap --version
+   16  sudo apt update
+   17  sudo apt upgrade
+   18  sudo apt-get -y upgrade snapd
+   19  snap --version
+   20  snap list
+   21  sudo apt install firefox
+   22  snap list
+   23  sudo apt remove firefox
+   24  snap install firefox
+   25  sudo snap install firefox
+   26  ls
+   27  sudo apt install nautilus
+   28  explorer .
+   29  code .
+   30  echo $PATH
+   31  code .
+   32  ls 
+   33  mv code projects
+   34  ls
+   35  cd projects
+   36  code .
+   37  ls
+   38  cd azure-search-openai-demo/
+   39  code .
+   40  cd projects
+   41  code .
+   42  chmod
+   43  chown
+   44  cd projects
+   45  code .
+   46  ls
+   47  cd azure-search-openai-demo/
+   48  cd ..
+   49  rm -r azure-search-openai-demo/
+   50  code .
+   51  curl -fsSL https://aka.ms/install-azd.sh | sudo bash
+   52  code .
+   53  nvm --version
+   54  node --version
+   55  cd azure-search-openai-demo/
+   56  node --version
+   57  apt search nodejs
+   58  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | sudo bash
+   59  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+   60  command -v nvm
+   61  nvm --version
+   62  exit
+   63  nvm --version
+   64  command -v nvm
+   65  nvm ls
+   66  nvm install --lts
+   67  nvm ls
+   68  code projects/azure-search-openai-demo/
+   69  python --version
+   70  sudo apt install python3 python-is-python3
+   71  cd projects
+   72  ls
+   73  cd azure-search-openai-demo/
+   74  code .
+   75  apt install python3.10-venv
+   76  sudo apt install python3.10-venv 
+   77  cd projects
+   78  code .
+   79  cd projects
+   80  ls
+   81  cd azure-search-openai-demo/
+   82  code .
+   83  azd auth login
+   84  azd init -t azure-search-openai-demo
+   85  azd up
+   86  azd auth login
+   87  azd init -t azure-search-openai-demo
+   88  azd up
+   89  cd projects
+   90  code .
+   91  cd projects
+   92  ls -
+   93  ls
+   94  cd azure-search-openai-demo/
+   95  code .
+   96  azd auth login
+   97  azd init -t azure-search-openai-demo
+   98  azd up
+   99  cd projects
+  100  code .
+  101  cd projects
+  102  ls
+  103  cd azure-search-openai-demo-1
+  104  code .
+  105  azd up
+  106  cd projects
+  107  ls
+  108  cd azure-search-openai-demo-1
+  109  code .
+  110  cd projects
+  111  ls
+  112  cd azure-search-openai-demo-1
+  113  code .
+  114  history
+  115  history > history.txt
