@@ -114,6 +114,10 @@ def ensure_openai_token():
     if openai_token.expires_on < int(time.time()) - 60:
         openai_token = azure_credential.get_token("https://cognitiveservices.azure.com/.default")
         openai.api_key = openai_token.token
-    
+
+@app.route('/history_text', methods=['GET'])
+def get_history_text():
+    return jsonify({'history_text': history_text})
+
 if __name__ == "__main__":
     app.run()
